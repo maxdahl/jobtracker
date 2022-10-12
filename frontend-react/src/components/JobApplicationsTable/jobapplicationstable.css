@@ -1,0 +1,32 @@
+table {
+  width: 100%;
+  border: 1px solid silver;
+}
+
+th, td {
+  text-align: center
+}
+
+#add-app-btn-container {
+  position: absolute;
+  width: 5%;
+  left:45%;
+}
+
+#add-app-btn-container > button{
+  width: 100%;
+  background: brown;
+  height: 30px;
+  padding: 0;
+}
+
+button {
+  padding: 0;
+  width: 32px;
+  height: 32px;
+} 
+
+button > img {
+  width: 16px;
+  height: 16px;
+}
